@@ -1,0 +1,116 @@
+/* tablet */
+
+@media screen and (max-width: 1000px) {
+    span {
+        display: none;
+    }
+    .nav-kiri a {
+        font-size: 24px;
+        color: #fff;
+    }
+    .nav-kanan a {
+        font-size: 16px;
+        color: #fff;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .hero-detail {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .hero-gambar {
+        width: 100%;
+    }
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(136, 105, 105);
+        color: #fff;
+        border-radius: 10px;
+        padding: 0;
+    }
+    article .main-gambar {
+        width: 80%;
+    }
+    article .main-detail {
+        width: 100%;
+        text-align: justify;
+    }
+    input,
+    textarea {
+        width: 90%;
+        margin-bottom: 20px;
+        padding: 7px 5px;
+        font-size: 16px;
+        border-radius: 30px;
+    }
+    footer {
+        font-size: 16px;
+    }
+}
+
+
+/* hp */
+
+@media screen and (max-width: 670px) {
+    .nav-kanan {
+        display: none;
+    }
+    span {
+        display: block;
+        color: white;
+        font-size: 24px;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .hero-detail {
+        width: 100%;
+    }
+    .hero-gambar {
+        width: 100%;
+    }
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(136, 105, 105);
+        color: #fff;
+        border-radius: 10px;
+        padding: 0;
+    }
+    article .main-gambar {
+        width: 70%;
+    }
+    article .main-detail {
+        width: 100%;
+        text-align: justify;
+    }
+    .about-us {
+        display: flex;
+        flex-direction: column;
+    }
+    input,
+    textarea {
+        width: 80%;
+        margin-bottom: 20px;
+        padding: 7px 5px;
+        font-size: 16px;
+        border-radius: 30px;
+    }
+    .keterangan {
+        margin-bottom: 50px;
+    }
+    aside {
+        margin-left: 0;
+    }
+    footer {
+        font-size: 12px;
+    }
+}

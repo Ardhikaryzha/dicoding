@@ -1,0 +1,211 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/* Nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(134, 90, 90);
+    padding: 30px 10%;
+    align-items: center;
+}
+
+.nav-kiri a {
+    font-size: 28px;
+    color: #fff;
+}
+
+.nav-kanan a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-kanan ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+span {
+    display: none
+}
+
+
+/* Header hero */
+
+.hero {
+    display: flex;
+    padding: 50px 10%;
+    margin-top: 80px;
+}
+
+.hero-detail {
+    width: 70%;
+    padding: 0px 50px 10px 10px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.hero-gambar {
+    width: 50%;
+    padding: 10px 10px;
+    padding: 40px 0px 10px 10px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero-detail h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    color: rgb(126, 76, 76);
+}
+
+.hero-detail p {
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: rgb(136, 105, 105);
+    margin-bottom: 40px;
+}
+
+.hero-detail a {
+    background-color: rgb(126, 76, 76);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+
+/* MAIN */
+
+main {
+    padding: 0 10%;
+}
+
+.judul {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    background-color: rgb(136, 105, 105);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+article .main-gambar {
+    width: 30%;
+    padding: 20px;
+}
+
+article .main-detail {
+    width: 70%;
+    padding: 20px 50px;
+    text-align: justify;
+}
+
+
+/* About */
+
+.about-us {
+    display: flex;
+}
+
+main .judul {
+    margin-top: 100px;
+    color: rgb(126, 76, 76);
+    text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+}
+
+.keterangan {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(214, 168, 168);
+    padding: 20px 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    padding: 20px 10px;
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 7px 5px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.about-us h2 {
+    margin-bottom: 30px;
+}
+
+.keterangan p {
+    margin-bottom: 5px;
+}
+
+.keterangan a {
+    background-color: rgb(126, 76, 76);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+aside img {
+    width: 50%;
+}
+
+.info-header {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(168, 133, 133);
+    margin-bottom: 30px;
+}
+
+.info-item,
+.info-sosial {
+    margin-bottom: 10px;
+}
+
+.profesi {
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 30px 10%;
+    margin-top: 100px;
+    background-color: rgb(134, 90, 90);
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+}
